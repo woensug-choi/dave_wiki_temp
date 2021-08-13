@@ -1,8 +1,13 @@
+---
+layout: default
+title: home
+---
+
 # Project `dave`
 
 Dave is a simulation environment to support the rapid testing and evaluation of underwater robotic solutions, specifically underwater vehicles (AUVs/UUVs) operating autonomously and completing missions that involve autonomous maniputlation.  The environment is built upon existing ROS and Gazebo infrastructure, particularly the [UUV Simulator](https://github.com/uuvsimulator/) and WHOI's [ds_sim](https://bitbucket.org/whoidsl/ds_sim/src/master/).
 
-## Quick Start 
+## Quick Start
 
 * For a high-level overview of the project, see the release highlight videos:
     * [Release 2.0.0 Highlight Video, September 2020](https://vimeo.com/462024036)
@@ -12,12 +17,12 @@ Dave is a simulation environment to support the rapid testing and evaluation of 
 * To review the project plans and priorities for future development efforts, review the [Dave Roadmap](roadmap) and consider submitting an issue or pull request.
 * To try the simulation, follow the [Installation Tutorial](Installation).
 
-## Project Objective 
+## Project Objective
 
 The objective of the project is to provide the following capabilities:
 
 * Visual, physical and (hydro)dynamic models of generlized vehicle, manipulator and sensor elements.
-* Simulation of sensing specific to underwater robotics including perception (e.g., sonar, underwater lidar and optical imaging) and navigation (e.g., DVL and USBL). 
+* Simulation of sensing specific to underwater robotics including perception (e.g., sonar, underwater lidar and optical imaging) and navigation (e.g., DVL and USBL).
 * Parameterized representations of the ocean environment including seafloor bathymetry and ocean currents.
 
 These capabilities will enable support the development of autonomous systems capable of multi-phase underwater missions over large time and space scales.
@@ -26,7 +31,7 @@ These capabilities will enable support the development of autonomous systems cap
 
 We welcome contributions from the robotics community. We are particularly interested in contributions to extend and improve capabiliteis associated with the objectives described above. To contribute, please submit an issue or a [pull request](https://github.com/Field-Robotics-Lab/dave/pulls).
 
-In addition to our officially supported, core features, Dave also includes a number of features that are supported exclusively by community members. Click here for the current list of [community supported features](Community-Supported-Features). 
+In addition to our officially supported, core features, Dave also includes a number of features that are supported exclusively by community members. Click here for the current list of [community supported features](Community-Supported-Features).
 
 # Tutorials and Demonstrations
 
@@ -42,7 +47,7 @@ Dave depends upon ROS Noetic and Gazebo 11 - with community support for previous
 ## Underwater Vehicle Models
 
 * [[New-Underwater-Vehicle]]: Given a visual and dynamic model of an underwater vehicle, how to instantiate the model in Gazebo.
-* Vehicle Models: Visual and physical models of existing vehicle platforms.  
+* Vehicle Models: Visual and physical models of existing vehicle platforms.
     * [Dave ROV Models](vehicle_examples): Custom ROV's
     * [Dave Glider Models](Glider-Models): Underwater and wave glider model examples.
     * [UUV Simulator Models](uuv_sim_vehicles): ROV and AUV models from UUV Simulator project.
@@ -61,7 +66,7 @@ Dave depends upon ROS Noetic and Gazebo 11 - with community support for previous
 * [Manipulator-Models](Manipulator-Models)
 * [Electrical Mating Plugin](Electrical-Plug-Mating-Plugin): Youssef's GSoC demo of a custom plugin to implement the subsea mating of an electrical connector.  The plugin implements constraints on alignment and forces necessary to complete the manipulation.
 * [BOP panel manipulation mission](BOP-Panel-Manipulation-Mission): Implementing the blowout preventer panel example from the UUV Simulator.
-* [Manipulation force feedback](Manipulator-Force-Feedback): First implementation of joint-based force feedback to enhance perception. 
+* [Manipulation force feedback](Manipulator-Force-Feedback): First implementation of joint-based force feedback to enhance perception.
 * [[Swapping-out-the-Oberon7-arm-with-another-manipulator]]: Tutorial demonstrating how to swap out the oberon7 arm for another custom made arm.
 * [Retrieving a bar from the seafloor](Teleop-Bar-Retrieval): Coordinated telecoperation of vehicle and manipulator.
 
@@ -80,7 +85,7 @@ Descriptions of how things work, how certain aspects of the project are implemen
 * UUV Simulator [Image Sonar](image_sonar_description): Description of foward looking sonar implementation.
 * UUV Simulator [Doppler Velocity Loggers](dvl_description): Description of UUV Simulator and WHOI DSL environment DVL plugin implementations.
 
-## Historical notes 
+## Historical notes
 
 * [Working notes for UUV Simulator](Notes).
 * [UUV Simulator Reference](uuv_simulator_reference)
